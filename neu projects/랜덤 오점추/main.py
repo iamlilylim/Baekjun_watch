@@ -13,7 +13,7 @@ import os
 JSONDB = 'menus.jason'
 # JSON 파일에서 메뉴불러오기
 if os.path.exists(JSONDB):
-    with open(JSONDB, 'r', encoding = 'utf-8') as f: # 유니코드, 이  instans를 f로 한다.
+    with open(JSONDB, 'r', encoding = 'utf-8') as f: # 유니코드, 이  instant를 f로 한다.
         menus = json.load(f)
 
 else:
