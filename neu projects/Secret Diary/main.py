@@ -1,7 +1,7 @@
 '''
 목표: 사용자가 입력한 글을 비밀번호로 저장된 일기로 만듦
 사용 기술: file, input, if, string
-추가기능: 쓴 날짜 저장(Homework)
+추가기능: 쓴 날짜 저장(Home`work)
 '''
 
 #pw setting
