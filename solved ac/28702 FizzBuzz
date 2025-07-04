@@ -1,0 +1,22 @@
+def fizzbuzz(n):
+    if n % 15 == 0:
+        return "FizzBuzz"
+    elif n % 3 == 0:
+        return "Fizz"
+    elif n % 5 == 0:
+        return "Buzz"
+    else:
+        return str(n)
+    
+
+lines = [input() for i in range(3)]
+if lines[2].isdigit():
+    start = int(lines[2])
+
+    print(fizzbuzz((start)+1))
+elif lines[1].isdigit():
+    start = int(lines[1])
+    print(fizzbuzz((start)+2))
+else:
+    start = int(lines[0])
+    print(fizzbuzz((start)+3))
